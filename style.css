@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(14, 11, 8);
+}
+.random-emoji{
+    text-align: center;
+    margin-top: 5vw;
+}
+.random-emoji h1{
+    font-size: 2.5em;
+    color: aliceblue;
+}
+.btn{
+    width: 13vw;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: aquamarine;
+    margin-top: 1.5em;
+    box-shadow: 0px 0px 10px 5px rgb(103, 106, 120);
+    cursor: pointer;
+}
+.btn:hover{
+background-color: aqua;
+box-shadow: 0px 0px 10px 5px rgb(121, 202, 214);
+
+}
+.reset-btn{
+    width: 13vw;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: aquamarine;
+    margin-top: 1.5em;
+    box-shadow: 0px 0px 10px 5px rgb(103, 106, 120);
+    cursor: pointer;
+    margin-left: 1.5em;
+}
+.reset-btn:hover{
+    background-color: aqua;
+    box-shadow: 0px 0px 10px 5px rgb(121, 202, 214);
+    
+    }
+.massege2{
+    text-align: center;
+    margin-top: 2em;
+    border: 2px solid white;
+    width: 35vw;
+    height: 25vh;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 33%;
+
+}
+.error2{
+    text-align: center;
+    margin-top: 2em;
+    border: 2px solid white;
+    width: 40vw;
+    height: 10vh;
+    font-size: 1.1em;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 33%;
+
+}
+.emoji{
+    font-size: 3em;
+}
+
+
+
+
+
+@media only screen and (max-width: 900px){
+    .btn{
+        width: 25vw;
+        margin-left: 1.5em;
+    }
+    .reset-btn{
+        width: 25vw;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .random-emoji{
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .random-emoji h1{
+        font-size: 2em;
+        color: aliceblue;
+    }
+    .btn{
+        width: 45vw;
+        margin-left: 1.5em;
+    }
+    .massege2{
+        margin-top: 5em;
+        width: 90vw;
+        height: 30vh;
+        margin-left:6.5%;
+    
+    }
+    .error2{
+        text-align: center;
+        margin-top: 2em;
+        border: 2px solid white;
+        width: 40vw;
+        height: 10vh;
+        font-size: 1.1em;
+        background-color: #fff;
+        border-radius: 8px;
+        margin-left: 33%;
+    
+    }
+.btn-container{
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    .reset-btn{
+        width: 45vw;
+    }
+}
